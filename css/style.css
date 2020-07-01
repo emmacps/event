@@ -1,0 +1,175 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    /*    background-color: aquamarine;*/
+    background-image: url('../images/wallpaper.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 0 80px 0 80px;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.top-nav {
+    width: 100%;
+    background-color: #144adc;
+    margin: 0;
+    padding: 5px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.top-nav ul li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+
+.top-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+}
+
+.top-nav a:hover {
+    background-color: aliceblue;
+    color: burlywood;
+}
+
+.top-banner {
+    height: 450px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: url('../images/table.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*    background-size: cover;*/
+}
+
+.top-banner h1 {
+    text-align: center;
+    color: aliceblue;
+    margin: 0 5px;
+    padding: 10px 5px;
+}
+
+.intro {
+    padding: 40px 0 40px 0;
+    /*    margin: 40px 0 40px 0;*/
+    background-color: white;
+}
+
+.btn {
+    text-decoration: none;
+    border-color: #005375;
+    background-color: #006994;
+    padding: 10px 10px;
+    color: white;
+}
+
+
+.btn a {
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.item {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.intro h2 {
+    text-align: center;
+    color: crimson;
+    font-size: 32px;
+}
+
+.img-res {
+    max-width: 100%;
+    height: auto;
+}
+
+.service {
+    padding: 40px 0 60px 0;
+    /*    margin: 40px 0 0 0;*/
+    background-color: #ebe9e9;
+}
+
+.service a {
+    text-decoration: none;
+}
+
+.service h2 {
+    text-align: center;
+    color: crimson;
+    font-size: 32px;
+}
+
+.service h3 {
+    text-align: center;
+    color: crimson;
+    font-size: 28px;
+}
+
+.works {
+    padding: 200px 0;
+    background-image: url(/images/works.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+.works h2 {
+    text-align: center;
+    font-size: 42px;
+    color: white;
+}
+
+.works p {
+    text-align: center;
+    font-size: 36px;
+    color: wheat;
+}
+
+.clients {
+    padding: 40px 0 40px 0;
+    /*    margin: 40px 0 40px 0;*/
+    background-color: white;
+}
+
+.clients h2 {
+    color: crimson;
+    text-align: center;
+    font-size: 32px;
+}
+
+.copy-right {
+    background-color: #111;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.copy-right a {
+    text-decoration: none;
+    color: crimson;
+}
