@@ -130,7 +130,7 @@ header {
 
 .works {
     padding: 200px 0;
-    background-image: url(/images/works.jpeg);
+    background-image: url('../images/works.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -172,4 +172,17 @@ header {
 .copy-right a {
     text-decoration: none;
     color: crimson;
+}
+
+
+input[type="text"] {
+    width: 320px;
+    height: 30px;
+    margin: 10px 20px;
+}
+
+input[type="email"] {
+    width: 320px;
+    height: 30px;
+    margin: 10px 20px;
 }
